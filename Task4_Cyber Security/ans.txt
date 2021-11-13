@@ -1,0 +1,4 @@
+Q. Looking at the web_requests.log - what is the user id with the most suspicious activity?
+Nailed it! It starts off with a regular login -> browsing of the dashboard. But then it turns into a regular, once-per-hour 
+(see the time stamps) automated check of the statuses in all 4 factories with no page resources being loaded and with an obviously 
+non-human punctuality.
